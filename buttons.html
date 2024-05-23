@@ -3,10 +3,10 @@
 		background-color: rgb(200, 0, 0);
 		color: white;
 		border: none;
-		height: 36px;
-		width: 105px;
+		padding: 10px 16px 10px;
 		border-radius: 2px;
 		cursor: pointer;
+		vertical-align: top;
 		transition: opacity 0.15s;
 	}
 
@@ -24,11 +24,11 @@
 		border-style: solid;
 		border-width: 1px;
 		color: rgb(6, 95, 212);
-		height: 36px;
-		width: 62px;
 		border-radius: 2px;
 		cursor: pointer;
 		margin-left: 8px;
+		vertical-align: top;
+		padding: 9px 15px;
 		transition:
 			background-color 0.15s,
 			color 0.15s;
@@ -47,13 +47,13 @@
 		background-color: rgb(2, 158, 255);
 		color: white;
 		border: none;
-		height: 36px;
-		width: 74px;
-		border-radius: 18px;
+		padding: 9px 16px;
+		border-radius: 50px;
 		font-weight: bold;
 		font-size: 15px;
 		margin-left: 8px;
 		cursor: pointer;
+		vertical-align: top;
 		transition: box-shadow 0.15s,
 			opacity 0.15s;
 	}
@@ -73,6 +73,28 @@
 		border: none;
 		border-radius: 18px;
 		margin-left: 8px;
+		vertical-align: top;
+	}
+
+	.stretch-button{
+		border: none;
+		background-color: green;
+		color: white;
+		padding: 10px 15px;
+		border-radius: 3px;
+		cursor: pointer;
+		vertical-align: top;
+		transition: padding 0.15s,
+			text 0.15s,
+			opacity 0.15s;
+	}
+
+	.stretch-button:hover{
+		padding: 20px 30px;
+	}
+
+	.stretch-button:active{
+		opacity: 0.8;
 	}
 
 </style>
@@ -91,4 +113,8 @@
 
 <button class="amazon-button">
 	Add to Cart
+</button>
+
+<button class="stretch-button">
+	STRETCH
 </button>
