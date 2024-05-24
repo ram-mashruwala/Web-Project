@@ -1,0 +1,97 @@
+.subscibe-button{
+    background-color: rgb(200, 0, 0);
+    color: white;
+    border: none;
+    padding: 10px 16px 10px;
+    border-radius: 2px;
+    cursor: pointer;
+    vertical-align: top;
+    transition: opacity 0.15s;
+}
+
+.subscibe-button:hover{
+    opacity: 0.8;
+}
+
+.subscibe-button:active{
+    opacity: 0.5;
+}
+
+.join-button{
+    background-color: white;
+    border-color: rgb(6, 95, 212);
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(6, 95, 212);
+    border-radius: 2px;
+    cursor: pointer;
+    margin-left: 8px;
+    vertical-align: top;
+    padding: 9px 15px;
+    transition:
+        background-color 0.15s,
+        color 0.15s;
+}
+
+.join-button:hover{
+    background-color: rgb(6, 95, 212);
+    color: white;
+}
+
+.join-button:active{
+    opacity: 0.7;
+}
+
+.tweet-button{
+    background-color: rgb(2, 158, 255);
+    color: white;
+    border: none;
+    padding: 9px 16px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 8px;
+    cursor: pointer;
+    vertical-align: top;
+    transition: box-shadow 0.15s,
+        opacity 0.15s;
+}
+
+.tweet-button:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.tweet-button:active{
+    opacity: 0.7;
+}
+
+.amazon-button{
+    background-color: rgb(255, 216, 20);
+    height: 36px;
+    width: 175px;
+    border: none;
+    border-radius: 18px;
+    margin-left: 8px;
+    vertical-align: top;
+}
+
+.stretch-button{
+    border: none;
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    vertical-align: top;
+    transition: padding 0.15s,
+        text 0.15s,
+        opacity 0.15s;
+}
+
+.stretch-button:hover{
+    padding: 20px 30px;
+}
+
+.stretch-button:active{
+    opacity: 0.8;
+}
