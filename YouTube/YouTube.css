@@ -8,3 +8,12 @@
     font-size: 10px;
     vertical-align: middle;
 }
+.images{
+    width: 100px;
+    vertical-align: middle;
+}
+.hi-button{
+    background-color: green;
+    border: none;
+    padding: 10px 20px 20px;
+}
